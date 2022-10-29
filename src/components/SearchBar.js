@@ -15,7 +15,7 @@ const SearchBar = (props) => {
   return (
     <div className="search-bar ui segment">
       <form className="ui form" onSubmit={onFormSubmit}>
-        <label>Video Search</label>
+        <label>Video Search Deployed</label>
         <input type="text" value={term} onChange={onInputChange} />
       </form>
     </div>
